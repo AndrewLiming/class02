@@ -1,9 +1,8 @@
 'use strict'
 
-var userName=prompt('What is your name?'){
-    alert('Welcome to Andrews About Me Page,' + userName)
-}
-
+var userName = prompt('Please enter your name');
+var greeting = 'Welcome to Andrews about me ' + userName; 
+  document.write(greeting);
 
 var andrewKitchen=prompt('Has Andrew worked in kitchens?');
 
@@ -40,7 +39,7 @@ if(andrewDnd.toLowerCase() === 'yes' || andrewDnd.toLowerCase() === 'y'){
 var andrewHorror=prompt('Does Andrew like Horror movies?');
 
 if(andrewHorror.toLowerCase() === 'yes' || andrewHorror.toLowerCase() === 'y'){
-    alert('you are correct!')
+    alert('you are correct, ' + userName)
 } else {
-    alert('Andrew loves horror movies');
+    alert('Andrew loves horror movies ' + userName);
 }
