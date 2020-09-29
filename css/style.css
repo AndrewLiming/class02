@@ -1,7 +1,11 @@
 main{background-color: rgb(31, 107, 31);
 color:beige;
-align-items: center;}
+}
 h1{
     background-color: beige;
     color: rgb(31, 107, 31)
+}
+footer{
+    background-color: beige;
+    color: rgb(31, 107, 31);
 }

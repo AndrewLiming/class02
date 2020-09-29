@@ -7,39 +7,49 @@ var greeting = 'Welcome to Andrews about me ' + userName;
 var andrewKitchen=prompt('Has Andrew worked in kitchens?');
 
 if(andrewKitchen.toLowerCase() === 'yes' || andrewKitchen.toLowerCase() === 'y'){
-    alert('you are correct!')
+    alert('you are correct!');
+    // console.log('you are correct')
 } else {
-    alert('Andrew has worked in kitchens');
+    alert('Andrew has worked in kitchens')
+    // console.log('Andrew has worked in kitchens');
 }
 
 var andrewSober=prompt('Is Andrew in Recovery?');
 
 if(andrewSober.toLowerCase() === 'yes' || andrewSober.toLowerCase() === 'y'){
-    alert('you are right!')
+    alert('you are right!');
+    // console.log('you are right!');
 } else {
     alert('Andrew has over 5 years sober');
+    // console.log('Andrew has over 5 years sober');
 }
 
 var andrewInstrument=prompt('Can Andrew play a musical instrument?');
 
 if(andrewInstrument.toLowerCase() === 'yes' || andrewInstrument.toLowerCase() === 'y'){
     alert('Yes, he can play 5 instruments!')
+    // console.log('Yes, he can play 5 instruments!');
 } else {
     alert('Andrew has been playing instruments since the age of 7 and can play 5 of them');
+    // console.log('Andrew has been playing instruments since the age of 7 and can play 5 of them');
 }
 
 var andrewDnd=prompt('Does Andrew play Dungeons and Dragons?');
 
 if(andrewDnd.toLowerCase() === 'yes' || andrewDnd.toLowerCase() === 'y'){
-    alert('Yep! Every Thursday')
+    alert('Yep! Every Thursday');
+    // console.log('Yep! Every Thursday');
 } else {
     alert('Sorry, Its one of his favorite hobbies');
+    // console log('Sorry, It's one of his favorite hobbies');
 }
 
 var andrewHorror=prompt('Does Andrew like Horror movies?');
 
 if(andrewHorror.toLowerCase() === 'yes' || andrewHorror.toLowerCase() === 'y'){
-    alert('you are correct, ' + userName)
+    alert('you are correct,' + ' ' + userName)
+    // console.log('you are correct,' + ' ' + userName);
 } else {
-    alert('Andrew loves horror movies ' + userName);
+    alert('Andrew loves horror movies' + ' ' + userName);
+    // console.log('Andrew loves horror movies' + ' ' + userName);
 }
