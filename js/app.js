@@ -1,10 +1,15 @@
 'use strict'
 var counter = 0
+var userName = '';
 
+function welcomeMessage(){
 var userName = prompt('Please enter your name');
 var greeting = 'Welcome to Andrews about me ' + userName;
 document.write(greeting);
+}
+welcomeMessage();
 
+function questionOne(){
 var andrewKitchen = prompt('Has Andrew worked in kitchens?');
 
 if (andrewKitchen.toLowerCase() === 'yes' || andrewKitchen.toLowerCase() === 'y') {
@@ -15,7 +20,10 @@ if (andrewKitchen.toLowerCase() === 'yes' || andrewKitchen.toLowerCase() === 'y'
     alert('Andrew has worked in kitchens')
     // console.log('Andrew has worked in kitchens');
 }
+}
+questionOne();
 
+function questionTwo(){
 var andrewSober = prompt('Is Andrew in Recovery?');
 
 if (andrewSober.toLowerCase() === 'yes' || andrewSober.toLowerCase() === 'y') {
@@ -26,7 +34,10 @@ if (andrewSober.toLowerCase() === 'yes' || andrewSober.toLowerCase() === 'y') {
     alert('Andrew has over 5 years sober');
     // console.log('Andrew has over 5 years sober');
 }
+}
+questionTwo();
 
+function questionThree(){
 var andrewInstrument = prompt('Can Andrew play a musical instrument?');
 
 if (andrewInstrument.toLowerCase() === 'yes' || andrewInstrument.toLowerCase() === 'y') {
@@ -37,7 +48,10 @@ if (andrewInstrument.toLowerCase() === 'yes' || andrewInstrument.toLowerCase() =
     alert('Andrew has been playing instruments since the age of 7 and can play 5 of them');
     // console.log('Andrew has been playing instruments since the age of 7 and can play 5 of them');
 }
+}
+questionThree();
 
+function questionFour(){
 var andrewDnd = prompt('Does Andrew play Dungeons and Dragons?');
 
 if (andrewDnd.toLowerCase() === 'yes' || andrewDnd.toLowerCase() === 'y') {
@@ -48,7 +62,10 @@ if (andrewDnd.toLowerCase() === 'yes' || andrewDnd.toLowerCase() === 'y') {
     alert('Sorry, Its one of his favorite hobbies');
     // console log('Sorry, It's one of his favorite hobbies');
 }
+}
+questionFour();
 
+function questionFive(){
 var andrewHorror = prompt('Does Andrew like Horror movies?');
 
 if (andrewHorror.toLowerCase() === 'yes' || andrewHorror.toLowerCase() === 'y') {
@@ -59,6 +76,11 @@ if (andrewHorror.toLowerCase() === 'yes' || andrewHorror.toLowerCase() === 'y') 
     alert('Andrew loves horror movies' + ' ' + userName);
     // console.log('Andrew loves horror movies' + ' ' + userName);
 }
+}
+questionFive();
+
+function guessingGame(){
+
 var answer = '7';
 
 for (var i = 1; i <= 4; i++) {
@@ -82,8 +104,11 @@ for (var i = 1; i <= 4; i++) {
     }
 
 }
+}
 
+guessingGame();
 
+function foodGame(){
 
 var favoriteFoods = ['Risotto', 'Duck', 'Tagliatelle', 'Gnocchi', 'Ribeye Steak', 'Crab', 'Brick Oven Pizza', 'Gumbo', 'Jambalaya', 'Cheesecake'];
 
@@ -103,4 +128,6 @@ for (var i = 1; i <= 6; i++) {
         }
     }
 }
+}
+foodGame();
 alert('congrats ' + userName + ' you got ' + counter + ' correct!')
