@@ -19,7 +19,7 @@ if (andrewKitchen.toLowerCase() === 'yes' || andrewKitchen.toLowerCase() === 'y'
 var andrewSober = prompt('Is Andrew in Recovery?');
 
 if (andrewSober.toLowerCase() === 'yes' || andrewSober.toLowerCase() === 'y') {
-    counter++
+    counter++;
     alert('you are right!');
     // console.log('you are right!');
 } else {
@@ -30,7 +30,7 @@ if (andrewSober.toLowerCase() === 'yes' || andrewSober.toLowerCase() === 'y') {
 var andrewInstrument = prompt('Can Andrew play a musical instrument?');
 
 if (andrewInstrument.toLowerCase() === 'yes' || andrewInstrument.toLowerCase() === 'y') {
-    counter++
+    counter++;
     alert('Yes, he can play 5 instruments!')
     // console.log('Yes, he can play 5 instruments!');
 } else {
@@ -77,7 +77,7 @@ for (var i = 1; i <= 4; i++) {
 
         }
         if (i === 4) {
-            alert('Better luck next time')
+            alert('The correct answer was 7')
         }
     }
 
